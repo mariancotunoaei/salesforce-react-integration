@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-salesforcereactinteg-dev-115322-authRole",
+      "UnauthRoleArn": "arn:aws:iam::293219717351:role/amplify-salesforcereactinteg-dev-115322-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::293219717351:role/amplify-salesforcereactinteg-dev-115322-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-salesforcereactinteg-dev-115322-deployment",
+      "UnauthRoleName": "amplify-salesforcereactinteg-dev-115322-unauthRole",
+      "StackName": "amplify-salesforcereactinteg-dev-115322",
+      "StackId": "arn:aws:cloudformation:us-east-1:293219717351:stack/amplify-salesforcereactinteg-dev-115322/04579cf0-3571-11ec-9ef5-0af7bc08aad9",
+      "AmplifyAppId": "d3eedql15e037x"
+    },
+    "categories": {
+      "auth": {
+        "cognitoc0ca1e79": {}
+      }
+    }
+  }
+}

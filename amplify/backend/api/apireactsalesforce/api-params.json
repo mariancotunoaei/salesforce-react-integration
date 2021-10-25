@@ -1,0 +1,42 @@
+{
+  "paths": [
+    {
+      "name": "/server",
+      "lambdaFunction": "connectsalesforce",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/POST",
+          "/GET",
+          "/PUT",
+          "/PATCH",
+          "/DELETE"
+        ]
+      },
+      "policyResourceName": "/server"
+    }
+  ],
+  "resourceName": "apireactsalesforce",
+  "apiName": "apireactsalesforce",
+  "functionArns": [
+    {
+      "lambdaFunction": "connectsalesforce"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-salesforcereactinteg-dev-115322-authRole",
+    "unAuthRoleName": "amplify-salesforcereactinteg-dev-115322-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "connectsalesforce",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
